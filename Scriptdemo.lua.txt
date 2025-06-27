@@ -35,13 +35,16 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Redz Hub",
+     Name = "NO LAG V2",
     Callback = function()
 	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
-
+AddButton(Tab1o, {
+     Name = "NO LAG V2",
+    Callback = function()
+	  local Settings = {
+  Translator = true; -- t
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/LoaderV2.lua"))()(Settings)
   end
   })
